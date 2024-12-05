@@ -7,6 +7,10 @@
       {
         "source": "/googleapis/:match*",
         "destination": "https://generativelanguage.googleapis.com/:match*"
+      },
+      {
+        "source": "/console/:match*",
+        "destination": "https://console.x.ai/:match*"
       }
     ]
 }
