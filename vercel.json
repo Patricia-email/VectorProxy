@@ -11,6 +11,18 @@
       {
         "source": "/console/:match*",
         "destination": "https://console.x.ai/:match*"
+      },
+      {
+        "source": "/about/:match*",
+        "destination": "http://114.132.50.254:3001/:match*"
+      },
+      {
+        "source": "/org/pypi/:match*",
+        "destination": "https://pypi.org/simple/:match*"
+      },
+      {
+        "source": "/aliyun/pypi/:match*",
+        "destination": "http://mirrors.aliyun.com/pypi/simple/:match*"
       }
     ]
 }
